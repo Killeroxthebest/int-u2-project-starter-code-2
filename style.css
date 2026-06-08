@@ -1,10 +1,13 @@
 /* The code below centers the text of all h1's on the page. */
 h1 {
+    color: #673019;
+    background-color: #F1EEBB;
     text-align:center;
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
 img {
+    max-width: 100%S;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -13,17 +16,27 @@ img {
 
 /* The code below centers the text of all h2's on the page. */
 h2 {
+    color: #673019;
+    background-color: #F1EEBB;
     text-align:center;
 }
 
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
+    color: #673019;
+    background-color: #dddbab;
     display:flex;
     justify-content:space-between;
 }
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
+    color: #673019;
+    background-color: #F1EEBB;
     border: 5px black solid;
     margin:5px;
+}
+body {
+    color: #673019;
+    background-color: #F1EEBB;
 }
