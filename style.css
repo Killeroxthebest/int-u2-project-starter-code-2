@@ -2,41 +2,71 @@
 h1 {
     color: #673019;
     background-color: #F1EEBB;
-    text-align:center;
+    text-align: center;
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
 img {
-    max-width: 100%S;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:400px;
+    max-width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
 }
 
 /* The code below centers the text of all h2's on the page. */
 h2 {
     color: #673019;
     background-color: #F1EEBB;
-    text-align:center;
+    text-align: center;
 }
 
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
+    position: relative;
+    width: 100%;
     color: #673019;
     background-color: #dddbab;
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 75px;
 }
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
     color: #673019;
     background-color: #F1EEBB;
-    border: 5px black solid;
-    margin:5px;
+    border: 3px black solid;
+    flex: 1;
+    min-width: 250px;
 }
+
 body {
+    max-width: 500%;
+    font-family: times new roman;
     color: #673019;
     background-color: #F1EEBB;
+    width: 100%;
+}
+
+.section-canva {
+    background-color: #dddbab;
+    display: flex;
+    border: 1px black solid;
+    margin: 5px;
+}
+
+.animation-box:hover {
+    position: center;
+    margin: -4px -4px;
+}
+
+.footer {
+    color: #673019;
+    background-color: #dddbab;
+    text-align: center;
+    border: 2px black solid;
+    margin: 5px;
 }
